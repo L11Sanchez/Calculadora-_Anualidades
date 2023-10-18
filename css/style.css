@@ -1,0 +1,197 @@
+:root{
+    --fondo:#a30ddade;
+    --primario:#dfbfe7;
+    --fuente:#5c1166;
+    --fuente-claro:#e9e7de;
+
+}
+
+body{
+    background-color:#57076b;
+    font-family: 'RobotoDraft', 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-image:url('https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg');
+    
+  }
+
+
+
+main{  
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.contenedor{
+    height:18em;
+    width:14em;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    position:relative;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius:16px;
+    overflow:hidden;
+    box-shadow:  15px 15px 27px #490343, -15px -15px 27px #cebfd4;
+
+
+
+    
+    
+}
+
+.contenedor a {
+    color: var(--fuente);
+   
+    text-decoration: navajowhite;
+    
+}
+
+.contenedor:hover{
+    box-shadow: 5px 5px 50px var(--fuente-claro);
+}
+
+.contenedor a img{
+    height:6em;
+    width:13em;
+    padding:1em 0em;
+    top:3000px;
+    border-radius:10px;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image:url('https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    box-shadow:  15px 15px 27px #ffffff, -15px -15px 27px #896199;
+
+
+    
+  }
+
+
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section img{
+    width: 375px;
+    border-radius: 8px;
+}
+
+h2{
+    margin:0px;
+    font-size:1.4em;
+    font-weight:700;
+}
+
+form{
+    color: var(--fuente);
+    font-size: 20px;
+}
+
+input{
+    width: 100px;
+    height: 50px;
+    border: 1px solid var(--funte);
+    border-radius: 8px;
+    font-size: 20px;
+    padding-left: 17px;
+    margin: 5px;
+}
+
+#style{
+    width: 120px;
+    height: 50px;
+    border: 1px solid var(--funte);
+    border-radius: 8px;
+    font-size: 20px;
+    padding-left: 17px;
+    margin: 5px 0 0 5px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    background-color: var(--fuente);
+    color: var(--primario);
+}
+
+input:focus{
+    outline: 5px solid var(--primario);
+    border-radius: 8px;   
+}
+
+.boton-regresar{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+}
+
+.boton-regresar:hover{
+    box-shadow: 5px 5px 50px var(--fuente-claro);
+
+}
+*
+{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+.property-description
+{
+  background-color: #FAFAFC;
+  height:12em;
+  width:14em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+.property-social-icons
+{
+  width:1em;
+  height:1em;
+  background-color:black;
+  position:absolute;
+  bottom:1em;
+  left:1em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+
